@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150px"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#0CCCBB"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Have an account?"
+        android:textColor="#EF03D0"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        android:layout_margin="7dp"/>
+
+    <EditText
+        android:id="@+id/textView6"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#B3EADD"
+        android:gravity="center"
+        android:padding="10dp"
+        android:hint="Username"
+        android:textColor="#EF03D0"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textView7"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#B3EADD"
+        android:gravity="center"
+        android:hint="Password"
+        android:textColor="#EF03D0"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Forget Password"
+        android:textColor="#EF03D0"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/buttonPanel"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#EF03D0"
+        android:background="#B3EADD"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Signin?"
+        android:textColor="#56D5CA"
+        android:background="#AF64C5"
+        android:textSize="22dp"
+        android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>
